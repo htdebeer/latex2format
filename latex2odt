@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require '/home/htdebeer/bin/LatexToOdtTransformer.rb'
+
+ltpd = LatexToOdtTransformer.new()
+ltpd.transform( ARGV[0] )

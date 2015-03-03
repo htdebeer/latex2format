@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require '/home/htdebeer/bin/OdtToDocTransformer.rb'
+
+ltpd = OdtToDocTransformer.new( "MyConversions")
+ltpd.transform( ARGV[0] )

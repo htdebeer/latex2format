@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require '/home/htdebeer/bin/LatexToPdfTransformer.rb'
+
+ltpd = LatexToPdfTransformer.new()
+ltpd.transform( ARGV[0] )
